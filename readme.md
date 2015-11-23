@@ -21,6 +21,10 @@ The system can help the faculty of an institution to manage their course materia
 - Progress Report
 
 ###To Do
+- Upgrade to Laravel 5.*
+- Remove Sentry Package
+- Some improvements
+- New features
 
 ###License
 The project is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
