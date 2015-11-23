@@ -1,0 +1,29 @@
+package prime;
+ import javax.swing.*;
+public class Prime
+{
+    public static void main(String[] args)
+    {
+     int i=2;
+     String a= JOptionPane.showInputDialog("Enter a value");
+     int b=Integer.parseInt(a);
+     int prime =  1;
+     
+     while (i<b)
+     {
+       if (b%i==0)
+       {
+           prime = 0;
+           break;
+       }
+       i++;
+     }
+     
+     if(prime == 1){
+        JOptionPane.showMessageDialog(null, "This is a prime number.");
+     } else {
+        JOptionPane.showMessageDialog(null, "This is not a prime number.");
+     }
+    }
+}
+
